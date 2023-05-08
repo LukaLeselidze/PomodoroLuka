@@ -27,7 +27,6 @@ function SignUp() {
 
     return (
         <div className='sign_in_overlay'>
-            <h1 className='text'>Sign Up Page</h1>
             <div className='main_container'>
                 <div className='container'>
                     {errorUp && <h1 className='incorrect'>You have to fill Username and Password</h1>}

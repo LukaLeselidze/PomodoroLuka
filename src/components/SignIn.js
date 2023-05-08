@@ -29,7 +29,6 @@ function SignIn() {
 
     return (
         <div className='sign_in_overlay'>
-            <h1 className='text'>Sign In Page</h1>
             <div className='main_container'>
                 <div className='container'>
                     {errorNotif && <h1 className='incorrect'>Username or Password is not correct</h1>}
