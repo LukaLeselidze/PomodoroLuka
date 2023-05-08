@@ -84,6 +84,7 @@
 .setting_inputs_container{
     display: flex;
     overflow: hidden;
+    gap: 1rem;
 }
 
 .setting_inputs label{
@@ -876,4 +877,12 @@ input[type="number"]::-webkit-outer-spin-button {
     .content_buttons{
         gap: 0;
     }
+  }
+
+  @media screen and (max-width: 431px) {
+    .settings_container{
+        width: 35rem;
+    }
+
+
   }
