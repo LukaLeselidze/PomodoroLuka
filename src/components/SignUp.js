@@ -24,6 +24,9 @@ function SignUp() {
         navigate('/')
     }
 
+    function navigateHandler() {
+        navigate('/')
+    }
 
     return (
         <div className='sign_in_overlay'>
@@ -31,7 +34,7 @@ function SignUp() {
                 <div className='container'>
                     {errorUp && <h1 className='incorrect'>You have to fill Username and Password</h1>}
                     <div className='sign_up_form'>
-                        <h1 className='google_text'>Login with Google</h1>
+                        <h1 className='google_text'>Sign Up on Pomodoro</h1>
                         <div className='or'>
                             <div className='left_or'></div>
                             <div className='or_text'><p>or</p></div>
@@ -51,7 +54,7 @@ function SignUp() {
                             <h1>Already have an account?</h1>
                         </div>
                         <div>
-                            <button>Sign in</button>
+                            <button onClick={navigateHandler}>Sign in</button>
                         </div>
                     </div>
                 </div>

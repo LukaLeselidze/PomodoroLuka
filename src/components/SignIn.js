@@ -33,7 +33,7 @@ function SignIn() {
                 <div className='container'>
                     {errorNotif && <h1 className='incorrect'>Username or Password is not correct</h1>}
                     <div className='sign_in_form'>
-                        <h1 className='google_text'>Login with Google</h1>
+                        <h1 className='google_text'>Login to Pomodoro</h1>
                         <div className='or'>
                             <div className='left_or'></div>
                             <div className='or_text'><p>or</p></div>
