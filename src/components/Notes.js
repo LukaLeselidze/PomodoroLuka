@@ -111,7 +111,8 @@ function Notes() {
     }
 
     function handleSettings() {
-        setSettingsOpened((prevIsActive) => !prevIsActive)
+        setSettingsOpened((prevIsActive) => !prevIsActive);
+        setAddTaskIsOpen(false);
     }
 
     function closeHandler() {
@@ -221,7 +222,8 @@ function Notes() {
     }
 
     function navigateLogin() {
-        navigate('/')
+        navigate('/');
+
     }
 
     return (
