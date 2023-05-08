@@ -1,0 +1,154 @@
+.text{
+    font-size: 3rem;
+}
+
+.main_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.sign_in_form{
+    height: 41rem;
+    width: 35rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.google_text{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.or{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.or_text{
+    font-size: 2rem;
+    color:  rgb(202, 200, 200);
+}
+
+.left_or{
+    width: 42%;
+    height: 1px;
+    background-color: rgb(235, 235, 235);
+}
+
+.right_or{
+    width: 42%;
+    height: 1px;
+    background-color: rgb(235, 235, 235);
+}
+
+.inputs h2{
+    text-transform: uppercase;
+    color: rgb(196, 196, 196);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.inputs input{
+    background-color: rgb(239, 239, 239);
+    color: rgb(85, 85, 85);
+    width: 100%;
+    padding: 1.2rem 1rem;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    box-shadow: none;
+}
+
+.log_in {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    margin-top: 2rem;
+    color: #fff;
+    border: 2px solid rgb(34, 34, 34);
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px; 
+    border-radius: 4px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.log_in:hover{
+    opacity: 1;
+}
+
+.forgot_password{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    opacity: 0.9;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background: none;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    margin-top: 2.5rem;
+    text-decoration: underline;
+}
+
+.forgot_password:hover{
+    opacity: 1;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.create_account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.create_account h1{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4rem;
+}
+
+.create_account button{
+    background: none;
+    border: none;
+    border-radius: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.create_account button:hover{
+    opacity: 1;
+}
+
+.incorrect{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
