@@ -836,7 +836,7 @@ input[type="number"]::-webkit-outer-spin-button {
   
     .buttons {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       gap: 0.5rem;
       justify-content: flex-start;
     }
