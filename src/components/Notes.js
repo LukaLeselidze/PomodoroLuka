@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState, useRef } from 'react'
-import PomoLogo from '../img/icon-white2.png';
+import PomoLogo from '../img/icon-white.png';
 import Remove from '../img/remove-black.png';
 import Clock from '../img/clock-black.png';
 import Dots from '../img/threedots.png';
